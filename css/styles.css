@@ -43,6 +43,15 @@
    letter-spacing: 0.02em;
    color: var(--primary-text-color-theme-light);
   }
+  .menu-list {
+    display: flex;
+  }
+  .menu-list li {
+    margin-right: 50px;
+  }
+  .menu-list li:last-child {
+    margin-right: 0px;
+  }
   .container {
     width: 1170px;
     margin-left: auto;
@@ -71,7 +80,11 @@
     background: #F5F4FA;
     border-radius: 4px;
    }
-  
+   .container {
+    width: 1230px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
   .contact-list {
    font-family: 'Roboto';
    font-style: normal;
@@ -148,7 +161,7 @@
    font-size: 26px;
    line-height: 1.19;
    letter-spacing: 0.03em;
-   color: #000000;;
+   color: #000000;
   }
   .logo-nav {
     color: #2196F3;
