@@ -213,10 +213,12 @@
   padding-bottom: 60px;
   background: #2F303A;
 }
-/*.logo-bg {
+.footer-container-portfolio {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2F303A;
- margin-top: 94px;
-}*/
+  margin-top: 94px;
+}
 .contact-link-footer {
   font-weight: 500;
   font-size: 14px;
